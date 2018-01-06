@@ -4,7 +4,7 @@
   "description": "An extension to famous 'debug' npm package that defines automatically some 'loggers' for the class importing it",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "DEBUG=* node test.js"
   },
   "repository": {
     "type": "git",
