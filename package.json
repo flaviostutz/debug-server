@@ -1,0 +1,28 @@
+{
+  "name": "debug-server",
+  "version": "1.0.0",
+  "description": "An extension to famous 'debug' npm package that defines automatically some 'loggers' for the class importing it",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flaviostutz/debug-server.git"
+  },
+  "keywords": [
+    "debug",
+    "stutz",
+    "levels"
+  ],
+  "author": "Flavio Stutz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flaviostutz/debug-server/issues"
+  },
+  "homepage": "https://github.com/flaviostutz/debug-server#readme",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "supports-color": "^5.1.0"
+  }
+}
